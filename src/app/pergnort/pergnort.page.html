@@ -1,0 +1,201 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar color = "success">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title><h6>Perguntas Norteadoras</h6></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-item *ngIf="opcao == 0">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h5>COVID-19</h5>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ul>
+            <li>
+              Os coronavírus são antigos conhecidos da humanidade. Quais as principais características dos coronavírus?
+            </li>
+            <br>
+            <li>
+              O novo coronavírus causador da COVID-19 é um vírus de DNA ou RNA?
+            </li>
+            <br>
+            <li>
+              Quais as diferenças entre RNA e DNA?
+            </li>
+            <br>
+            <li>
+              O que significa dizer que um vírus sofre mutação ou se transforma?
+            </li>
+            <br>
+            <li>
+              É normal que os vírus sofram mutações?
+            </li>
+            <br>
+            <li>
+              Como é chamado o processo de mudança e seleção de variantes bem-sucedidas do vírus?
+            </li>
+            <br>
+            <li>
+              Grupos de pesquisa sequenciaram o SARS-CoV-2 e compartilharam os resultados em bancos de dados públicos. Qual a importância desta colaboração global?
+            </li>
+            <br>
+            <li>
+              Quais exames diagnosticam a COVID-19 e como eles são feitos?
+            </li>
+          </ul>
+        </ion-col>
+      </ion-row>
+      <ion-button click="voltarPergNort()" routerLink="/horainves" routerDirection="forward" expand="block" color="success">
+        Voltar
+        <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-grid>    
+  </ion-item>
+  <ion-content>
+  <ion-item *ngIf="opcao == 1">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h5>Prevenção</h5>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ul>
+            <li>
+              Como o novo coronavírus causador da COVID-19 é transmitido?          
+            </li>
+            <br>
+            <li>
+              Como podemos proteger aos outros e a nós mesmos se não sabemos quem está infectado?
+            </li>
+            <br>
+            <li>
+              Qual a melhor maneira de limitar e suprimir a transmissão de COVID-19 e consequentemente o surgimento de novas variantes do vírus?
+            </li>
+            <br>
+            <li>
+              A mutação do novo coronavírus deixou ele mais transmissível. O que isso quer dizer?
+            </li>
+            <br>
+            <li>
+              Depois de tomar vacina, podemos abandonar outras medidas de proteção? 
+            </li>
+            <br>
+            <li>
+              Como o álcool 70% e a lavagem correta das mãos com água e sabão, podem ser meios eficazes no combate contra o novo coronavírus?
+            </li>
+          </ul>
+        </ion-col>
+      </ion-row>
+      <ion-button click="voltarPergNort()" routerLink="/horainves" routerDirection="forward" expand="block" color="success">
+        Voltar
+        <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-grid>  
+  </ion-item>
+
+  <ion-item *ngIf="opcao == 2">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h5>Tratamento</h5>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ul>
+              <li>
+                Atualmente existe algum medicamento, ou receita caseira que evite a contaminação de COVID-19?
+              </li>
+              <br>
+              <li>
+                Como é feito o tratamento da COVID-19 em casos leves? 
+              </li>
+              <br>
+              <li>
+                Vacinas genéticas são capazes de provocar mutações no nosso DNA? 
+              </li>
+              <br>
+              <li>
+                Como funcionam as vacinas de vírus inteiros inativados como a do Butatan/Sinovac (Coronavac)?
+              </li>
+              <br>
+              <li>
+                As vacinas de mRNA têm acesso ao núcleo celular onde está armazenado nosso DNA?
+              </li>
+              <br>
+              <li>
+                Posso pegar COVID-19 por causa da vacina?
+              </li>
+              <br>
+            </ul>
+          </ion-col>
+        </ion-row>
+        <ion-button click="voltarPergNort()" routerLink="/horainves" routerDirection="forward" expand="block" color="success">
+          Voltar
+          <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </ion-grid>
+  </ion-item>
+
+  <ion-item *ngIf="opcao == 3">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h5>Sintomas</h5>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ul>
+            <li>
+              Como é chamado o tempo entre a exposição à COVID-19 até o momento em que os sintomas começam? 
+            </li>
+            <br>
+            <li>
+            	Quais os principais sintomas da Covid-19? 
+            </li>
+            <br>
+            <li>
+              O que fazer se você apresentar sintomas suspeitos?
+            </li>
+            <br>
+            <li>
+            	Pessoas sem sintomas podem transmitir o coronavírus?
+            </li>
+            <br>
+            <li>
+              Pessoas com sintomas suspeitos podem fazer os chamados testes sorológicos para COVID-19, que detectam a presença de anticorpos produzidos pelo organismo a partir da infecção do coronavírus. O que são anticorpos e como eles são produzidos?
+            </li>
+            <br>
+            <li>
+              Qual sistema do corpo humano é responsável pela produção de anticorpos?
+            </li>
+            <br>
+            <li>
+              É possível ter anticorpos para covid-19 sem ter se contaminado? 
+            </li>
+            <br>
+            <li>
+              Assintomáticos também produzem anticorpos?
+            </li>
+            <br>
+          </ul>
+        </ion-col>
+      </ion-row>
+      <ion-button click="voltarPergNort()" routerLink="/horainves" routerDirection="forward" expand="block" color="success">
+        Voltar
+        <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-grid> 
+  </ion-item>
+</ion-content>

@@ -1,0 +1,185 @@
+
+<ion-app>
+  <ion-header>
+      
+    <ion-toolbar color="success">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title><h6>FatoBio</h6></ion-title>
+     
+    </ion-toolbar>
+
+
+    <ion-fab horizontal="end" vertical="top">
+      <ion-fab-button color="success">
+        <ion-icon name="help-circle"></ion-icon>
+      </ion-fab-button>
+
+      <ion-fab-list>
+        <ion-fab-button color="light" (click)="abrirAlert()">
+          <ion-icon name="information-circle" title="Informação"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="light" (click)="exibirDicaBio()">
+          <ion-icon name="chatbubbles" title="DicaBio"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+
+    </ion-fab>
+
+  </ion-header>
+  
+
+<ion-content>
+  <p *ngIf="categoria != null">{{ categoria.nome }}</p>
+        
+  <ion-item *ngIf="noticia != null && showFeedback == false && showDicaBio == false">
+    <ion-grid style="width: 100%;">
+      <ion-row>
+        <ion-col>
+          <ion-label><ion-icon name="newspaper"></ion-icon>&nbsp;<strong>Notícia: ( {{ noticia.id_noticia + 1 }}/{{ categoria.noticias.length }}  ) </strong></ion-label>
+          
+          <ion-card style="width: 100%;">
+            <p>{{ noticia.descricao }}</p>
+            <p *ngIf="noticia.data !=null">Data:&nbsp;{{noticia.data}}</p>
+            <p *ngIf="noticia.fonte !=null">Fonte:&nbsp;{{noticia.fonte}} </p>
+          </ion-card>
+       
+        </ion-col>
+        <ion-col>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="25">
+          <ion-label><ion-icon name="megaphone"></ion-icon>&nbsp;<strong style="font-size: small;">Observe a Fonte:</strong></ion-label>
+          <ion-select interface="action-sheet" cancel-text="Fechar">
+            <ion-select-option value="0">Apresenta fonte confiável</ion-select-option>
+            <ion-select-option value="1">Não apresenta fonte confiável</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="25">
+          <ion-label><ion-icon name="calendar-number"></ion-icon>&nbsp;<strong style="font-size: small;">Observe a Data:</strong></ion-label>
+          <ion-select interface="action-sheet" cancel-text="Fechar">
+            <ion-select-option  value="0">Apresenta data</ion-select-option>
+            <ion-select-option  value="1">Não apresenta data</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-label font size="small">
+          <ion-icon name="people"></ion-icon>&nbsp;<strong style="font-size: small;">Observe o posicionamento:</strong></ion-label>
+          <ion-select interface="action-sheet" cancel-text="Fechar"> 
+            <ion-select-option value="0">Técnico / científico</ion-select-option>
+            <ion-select-option value="1">Sensacionalista / negacionista</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button 
+            class="noticia-button"
+            color="success"
+            (click)="validarNoticia(true)">
+            <ion-icon name="thumbs-up"></ion-icon>&nbsp;
+            FATO
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button  
+            class="noticia-button"
+            color="danger"
+            (click)="validarNoticia(false)">
+            <ion-icon name="thumbs-down"></ion-icon>&nbsp;
+            FAKE
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+  <ion-item *ngIf="showFeedback">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          Feedback
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p>{{ noticia.feedback }}</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-button  
+          class="noticia-button"
+          color="success"
+          (click)="getProxima()">
+          <ion-icon name="arrow-forward-outline"></ion-icon>&nbsp;
+          Próxima
+        </ion-button>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+  <ion-item *ngIf="showDicaBio">
+    <ion-grid style="width: 100%;">
+      <ion-row>
+        <ion-col>
+          DicaBio
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ul>
+            <li>Leia atentamente as notícias;</li>
+            <li>Relacione sempre o conteúdo das notícias com os seus conhecimentos adquiridos nas aulas de biologia;</li>
+            <li>Escolhe as opções de acordo com as suas observações sobre: a fonte, a data e o posicionamento das notícias;</li>
+            <li>Nem sempre uma notícia sem fonte ou sem data será falsa, e nem toda a notícias com fonte será necessariamente verdadeira;</li>
+            <li>Cheque as fontes;</li>
+            <li>Esteja atento a mais de um ponto de observação;</li>
+            <li>Caminhe para a conclusão de forma investigativa;</li>
+            <li>Faça perguntas sobre as notícias e busque respostas;</li>
+            <li>Debata a sua opinião com os seus colegas;</li>
+            <li>Estabeleça qual seria a sua hipótese sobre a notícia.</li>
+          </ul>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+            <ion-icon name="return-up-back" style="cursor: pointer;" (click)="exibirDicaBio()"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+  <ion-item *ngIf="showResultado">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          Resultado
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p>Acertos: {{ acertos }}</p>
+        </ion-col>
+        <ion-col>
+          <p>Erros: {{ erros }}</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-button  
+          class="noticia-button"
+          color="success"
+          (click)="goCategorias()">
+          <ion-icon name="grid"></ion-icon>&nbsp;
+          Selecionar nova categoria
+        </ion-button>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+</ion-content>

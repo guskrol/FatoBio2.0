@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color = 'success'>
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>FatoBio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <br>
+  <br>
+  <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="categoria-icone">
+        <ion-card (click)="abrirCategoria(0)" style="width : 90px ; height : 90px">
+          <img src="assets/img/viirus.png"/>
+          </ion-card>
+          <h5>COVID-19</h5>
+      </ion-col>
+
+      <ion-col class="categoria-icone">
+    <ion-card (click)="abrirCategoria(1)" style="width : 90px ; height : 90px">
+      <img src="assets/img/cuidados.png"/>
+    </ion-card> 
+    <h5>Prevenção</h5> 
+  </ion-col>
+  </ion-row>
+
+  <ion-row>
+  <ion-col class="categoria-icone">
+    <ion-card (click)="abrirCategoria(2)" style="width : 90px ; height : 90px">
+      <img src="assets/img/tratamento.jpg"/>
+      </ion-card>
+      <h5>Tratamento</h5> 
+    </ion-col>
+
+    <ion-col class="categoria-icone">
+      <ion-card (click)="abrirCategoria(3)" style="width : 90px ; height : 90px">
+        <img src="assets/img/sintomas.png"/>
+        </ion-card>
+        <h5>Sintomas</h5> 
+      </ion-col>
+      </ion-row>
+      <br>
+      <ion-card style="width: 90%">
+        <h5><b>Selecione um tema para iniciar.</b></h5>
+      </ion-card>
+    </ion-grid>
+  </ion-content>

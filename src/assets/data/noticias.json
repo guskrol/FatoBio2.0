@@ -1,0 +1,349 @@
+[
+    {
+        "id":0,
+        "nome": "Covid-19",
+        "noticias":[
+            {
+                "id_noticia": 0,
+                "descricao": "“A transmissão acontece de uma pessoa doente para outra ou por contato próximo por meio de: Toque do aperto de mão contaminadas; Gotículas de saliva; Espirro; Tosse; Catarro; Objetos ou superfícies contaminadas, como celulares, mesas, talheres, maçanetas, brinquedos, teclados de computador etc.”",
+                "fonte": "https://coronavirus.saude.gov.br/",
+                "data": "16 Abr. 21",
+                "feedback": "A notícia é Fato! Limitar o contato próximo entre pessoas infectadas e outras pessoas é importante para reduzir as chances de transmissão do SARS-CoV-2",
+                "resposta": true
+            },
+            {
+                "id_noticia": 1,
+                "descricao": "“A doença COVID-19 é causada por um vírus, não por bactérias”",
+                "fonte": "Organização Mundial da Saúde",
+                "data": "19 Mai. 20",
+                "feedback": "A notícia é Fato!  O vírus que causa o COVID-19 pertence a uma família de vírus chamada Coronaviridae. Os antibióticos não funcionam contra os vírus. Algumas pessoas que ficam doentes com COVID-19 também podem desenvolver uma infecção bacteriana como complicação. Nesse caso, os antibióticos podem ser recomendados por um profissional de saúde. Atualmente, não há medicamento licenciado para curar COVID-19.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 2,
+                "descricao": "“A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2, potencialmente grave, de elevada transmissibilidade e de distribuição global.”",
+                "fonte": "https://coronavirus.saude.gov.br/",
+                "data": "21 Abr. 21",
+                "feedback": "A notícia é Fato!  O SARS-CoV-2 é um betacoronavírus descoberto em amostras de lavado broncoalveolar obtidas de pacientes com pneumonia de causa desconhecida na cidade de Wuhan, província de Hubei, China, em dezembro de 2019. Pertence ao subgênero Sarbecovírus da família Coronaviridae e é o sétimo coronavírus conhecido a infectar seres humanos.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 3,
+                "descricao": "“Pessoas de todas as idades podem ser infectadas pelo vírus causador da COVID-19”",
+                "fonte": null,
+                "data": null,
+                "feedback": "A notícia é Fato!  Idosos e jovens podem ser infectados pelo vírus causador da COVID-19. Idosos e pessoas com condições médicas pré-existentes, como asma, diabetes e doenças cardíacas, parecem ser mais vulneráveis a adoecerem gravemente com o vírus. A OMS aconselha pessoas de todas as idades a tomarem medidas para se protegerem do vírus, por exemplo, seguindo uma boa higiene das mãos e uma boa higiene respiratória.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 4,
+                "descricao": "“O vírus SARS-CoV-2 age apenas no sistema respiratório, causando apenas uma gripe ou no pior dos casos pneumonia.”",
+                "fonte": "WhatsApp",
+                "data": "30 Jul. 2020",
+                "feedback": "A notícia é Fake!  No começo da pandemia, achava-se que o SARS-CoV-2 teria uma “predileção” pelo sistema respiratório e que, poderia causar apenas sintomas de uma gripe simples. Essa hipótese era baseada na experiência com outros coronavírus, como os causadores da Sars e da Mers. Pesquisas mostraram que o novo coronavírus atinge diretamente o sistema de defesa do corpo por meio de receptores encontrados no tecido endotelial. Por isso a Covid-19 se manifesta sobretudo nos pulmões, órgãos hipervascularizados, mas pode também afetar qualquer outro órgão: coração, rins ou intestino, por exemplo.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 5,
+                "descricao": "“De acordo com o que foi documentado até o momento, sabe-se que 40% dos casos de COVID-19 desenvolvem sintomas, 40% têm sintomas moderados, 15% desenvolvem manifestações clínicas graves que exigem oxigenoterapia, e 5% desenvolvem um quadro clínico crítico apresentando uma ou mais complicações.”",
+                "fonte": "Organização Pan-Americana da Saúde / Organização Mundial da Saúde. Alerta Epidemiológico Complicações e sequelas da COVID-19",
+                "data": "12 Ago. 2020",
+                "feedback": "A notícia é Fato!  De acordo com a OMS as complicações da COVID-19 costumam ocorrer principalmente em pessoas com fatores de risco: adultos mais idosos, fumantes e aqueles com comorbidades subjacentes, como hipertensão, obesidade, diabetes, doença cardiovascular, doença pulmonar crônica (por exemplo, doença pulmonar obstrutiva crônica e asma), doença renal crônica, doença hepática crônica, doença cerebrovascular, câncer e imunodeficiência.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 6,
+                "descricao": "“Imunidade de rebanho é a única saída para a COVID-19 que não depende de vacinação em massa”",
+                "fonte": "@Juntosbrasil",
+                "data": "02 Abr. 2021",
+                "feedback": "A notícia é Fake!  A imunidade coletiva é atingida quando for possível vacinar a maior parte da população. Dessa forma, pessoas imunizadas começam a bloquear a circulação do vírus e ele vai perdendo força. No entanto, especialistas alertam que ainda não é possível saber se vai funcionar no caso do SARS-CoV-2 e quando isso ocorrerá.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 7,
+                "descricao": "“A COVID-19 é a doença infecciosa causada pelo novo coronavírus, identificado pela primeira vez em dezembro de 2019, em Wuhan, na China.”",
+                "fonte": "Organização Mundial da Saúde",
+                "data": "10 Nov. 2020",
+                "feedback": "A notícia é Fato!  A OMS tomou conhecimento deste novo vírus em 31 de dezembro de 2019, após um relatório de um grupo de casos de 'pneumonia viral' em Wuhan, na República Popular da China.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 8,
+                "descricao": "“Veja bem: esse é um vírus criado na China para contaminar o mundo inteiro, destruir a economia.”",
+                "fonte": null,
+                "data": null,
+                "feedback":"A notícia é Fake!   Essa teoria da conspiração é uma das mais antigas que circulam nas redes, desde o início da pandemia do coronavírus. Estudos publicados na revista Nature Medicine (https://www.nature.com/articles/s41586-020-2169-0) concluíram que o vírus não foi criado artificialmente. Em abril de 2020, a Organização Mundial da Saúde também atestou que não houve manipulação laboratorial do vírus.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 9,
+                "descricao": "“Um estudo sobre a Covid-19 feito por um neurocientista britânico concluiu que maioria da população é imune ao coronavírus e que distanciamento social é inútil.”",
+                "fonte": null,
+                "data": "19 Ago. 2020",
+                "feedback": "A notícia é Fake!  A maioria das pessoas infectadas com COVID-19 desenvolvem uma resposta imunológica nas primeiras semanas após a infecção. Pesquisas ainda estão em andamento sobre o quão forte é essa proteção e por quanto tempo ela dura. A OMS também está investigando se a força e a duração da resposta imune dependem do tipo de infecção que a pessoa tem: sem sintomas ('assintomático'), leve ou grave. Mesmo as pessoas sem sintomas parecem desenvolver uma resposta imunológica. FONTE: OMS 31 de dezembro de 2020",
+                "resposta": false
+            }
+        ]
+    },
+    {
+        "id":1,
+        "nome": "Prevenção",
+        "noticias":[
+            {
+                "id_noticia": 0,
+                "descricao": "“Todas as vacinas aprovadas contra a covid-19 são seguras.”",
+                "fonte": null,
+                "data": null,
+                "feedback": "A notícia é Fato!  As vacinas que obtiveram aprovação para serem utilizadas em larga escala na população são seguras e passaram por diversos tipos de testes e estudos com muitos voluntários.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 1,
+                "descricao": "“A OMS publicou uma diretriz provisória sobre o uso de dexametasona e outros corticosteroides para o tratamento de COVID-19. As diretrizes foram desenvolvidas por um painel da OMS e de especialistas e pesquisadores internacionais e são baseadas em evidências coletadas em sete ensaios clínicos.”",
+                "fonte": "Organização Mundial da Saúde",
+                "data": "02 Set. 2020",
+                "feedback": "A notícia é Fato!  Em 2 de setembro de 2020, a OMS publicou uma diretriz provisória sobre o uso de dexametasona e outros corticosteroides para o tratamento de COVID-19 em pacientes com quadro grave e crítico. As diretrizes foram desenvolvidas por um painel da OMS e de especialistas e pesquisadores internacionais e são baseadas em evidências coletadas em sete ensaios clínicos.",
+                "resposta": true
+            },
+            {
+                "id_noticia": 2,
+                "descricao": "“Circula por grupos de WhatsApp um vídeo em que um médico da cidade de São Gabriel (RS) declarou ter “vencido a Covid-19” ao tratar pacientes com flutamida, medicamento normalmente indicado para tratar câncer de próstata. De acordo com o profissional, ao ser tratado com o fármaco, em 24 ou 48 horas o paciente deixa de avançar em direção ao fundo do poço. 'Essa é a vitória sobre a Covid-19 diz ele.”",
+                "fonte": "Vídeo que circula em grupos de WhatsApp",
+                "data": "09 Abr. 2021 ",
+                "feedback": "A notícia é Fake!  Até momento não existem evidências científicas que comprovem que algum medicamento cure a Covid-19. ",
+                "resposta": false
+            },
+            {
+                "id_noticia": 3,
+                "descricao": "“Qualquer vacina que precise ser enviada e armazenada a -80°C não é uma vacina, mas um agente de transfecção, mantido vivo para infectar suas células e transferir material genético.”",
+                "fonte": null,
+                "data": null,
+                "feedback": "A notícia é Fake!  A técnica em questão é a da vacina de RNA mensageiro (utilizada pelas vacinas aprovadas da Pfizer e da Moderna), que contém uma cópia incompleta de um pedaço do material genético do vírus. Nosso código genético é armazenado em DNA e a vacina é de RNA, duas moléculas diferentes; nem o organismo humano ou o coronavírus conseguem transformar RNA em DNA; e o conteúdo da vacina não fica no nosso corpo por muito tempo. Todo RNA mensageiro que é lido no nosso organismo é encaminhado para ser destruído logo em seguida.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 4,
+                "descricao": "“O tratamento precoce ou kit Covid é um coquetel de alguns remédios, entre eles hidroxicloroquina, cloroquina, ivermectina e azitromicina, prescritos por alguns médicos para prevenir a infecção por Covid-19 ou tratar casos leves da doença. Os medicamentos, no entanto, não têm eficácia comprovada para combater a doença e são rechaçados por entidades médicas brasileiras e internacionais”",
+                "fonte": null,
+                "data": "05 Mar. 2021",
+                "feedback": "A notícia é Fato!  O próprio Ministério da Saúde, na nota informativa Nº 17/2020 que estabelece orientações para manuseio medicamentoso precoce de pacientes com diagnóstico da Covid-19, reconhece que 'até o momento, não existem evidências científicas robustas que possibilitem a indicação de terapia farmacológica específica para a Covid-19.'",
+                "resposta": true
+            },
+            {
+                "id_noticia": 5,
+                "descricao": "“O Senado italiano aprovou, após meses de discussões, o uso de medicamentos no tratamento precoce contra Covid-19. A moção foi movida pelo senador Massimiliano Romeo, membro do partido Lega, de Matteo Salvini, e foi aprovada por 212 votos a favor, 2 contra e 2 abstenções (…)”",
+                "fonte": "https://brasilsemmedo.com",
+                "data": "15 Abr. 2021",
+                "feedback": "A notícia é Fake!  Em 8 de abril o senado italiano aprovou uma moção que versa sobre um protocolo único para cuidados domiciliares de pacientes com Covid-19, e não sobre o uso de medicamentos para “tratamento precoce” da doença. ",
+                "resposta": false
+            },
+            {
+                "id_noticia": 6,
+                "descricao": "“Circulou no dia 6 de abril de 21, por grupos de WhatsApp uma lista de 52 cidades brasileiras onde supostamente não foi registrada nenhuma morte pelo novo coronavírus. O conteúdo sugere que esse resultado se deve à adoção do tratamento precoce com os medicamentos ivermectina e hidroxicloroquina. O texto não informa a data desses dados e nem a fonte.”",
+                "fonte": null,
+                "data": null,
+                "feedback": "A notícia é Fake!  De acordo com dados do SUS Analítico, plataforma que reúne dados sobre a Covid-19 no Brasil, 123 mortes por Covid-19 foram registradas no dia 6 de abril, em 25 dos 50 municípios listados na corrente de WhatsApp. Não procede, portanto, a informação de que todas essas localidades zeraram o número óbitos pelo novo coronavírus.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 7,
+                "descricao": "“Cresce o número de casos de pessoas que vieram a óbito por covid após terem recebido a vacina chinesa. O caso da cidade de Serrana, interior paulista, é dos mais emblemáticos: a população inteira da cidade foi vacinada com a coronavac e logo em seguida quadruplicou o registro de óbitos por covid no município.”",
+                "fonte": "Site Painel Crítica Nacional",
+                "data": "04 Abr. 2021 ",
+                "feedback": "A notícia é Fake!  A cidade faz parte do Projeto S, programa conduzido pelo Instituto Butantan que pretende vacinar todas as pessoas com 18 anos ou mais no município. O objetivo da iniciativa é entender o impacto desse processo no controle da pandemia e na redução de casos. Apenas uma parte da população de Serrana tomou as duas doses da CoronaVac – necessárias para que o sistema imunológico aprenda a se proteger contra o novo coronavírus. Ainda não houve tempo suficiente, para que a segunda dose fizesse efeito na maior parte dessas pessoas. Segundo o Instituto Butantan, que produz o imunizante em parceria com a chinesa Sinovac, é necessário aguardar pelo menos 15 dias depois da segunda aplicação para a imunização ser considerada completa. A segunda etapa da vacinação em Serrana começou em 17 de março para o primeiro grupo de voluntários, de 6.568 moradores. Isso corresponde a cerca de 25% do público-alvo do Projeto S, composto por 28.830 pessoas. Essa parcela passou a ficar protegida apenas no início de abril.",
+                "resposta": false
+            },
+            {
+                "id_noticia": 8,
+                "descricao": "“Nesta segunda-feira, noticiamos 34 mortes ligadas às vacinas, a maioria da vacina chinesa da CoronaVac. No dia seguinte, porém, novas 26 mortes foram registradas e a maioria permanece associada às vacinas da fabricante chinesa Sinovac. Os “imunizantes” são considerados ineficazes para a nova cepa do coronavírus e já foram descartados por alguns países, como África do Sul.”",
+                "fonte": "Site Estudos Nacionais",
+                "data": "02 Mar. 2021 ",
+                "feedback": "A notícia é Fake!  Os dados do texto foram extraídos do Painel de Notificações de Farmacovigilância da Anvisa. Os registros, são apenas suspeitas e podem ser enviados por profissionais de saúde, empresas ou consumidores por outro sistema, o VigiMed. Depois disso, ainda precisam passar por uma investigação, que vai analisar outros elementos para entender o que causou os problemas reportados. Por esse motivo, não podem ser considerados como “prova de mortes causadas pelas vacinas contra Covid-19”, como fez a publicação do site Estudos Nacionais. Segundo a Anvisa, não foi registrada nenhuma morte associada a essas vacinas até o momento. ",
+                "resposta": false
+            },
+            {
+                "id_noticia": 9,
+                "descricao": "“Chapecó esvazia leitos de UTIs com tratamento precoce”Texto retirado de imagem que, até às 14h do dia 6 de abril de 2021, tinha sido compartilhada por 600 pessoas no Facebook.”",
+                "fonte": "Site minutocatarinense",
+                "data": null,
+                "feedback": "A notícia é Fake!  Diferente do que afirma a imagem compartilhada no Facebook, o município de Chapecó, em Santa Catarina, não esvaziou os leitos de UTI.  Divulgado dia 6 de abril de 21, o boletim epidemiológico indica que 187 pessoas com Covid-19 estavam internadas na cidade, sendo que 121 estavam em Unidades de Terapia Intensiva (UTIs) e 63 estavam em enfermarias. Não existe nenhum indício de que queda no número de casos tenha qualquer relação com o chamado “tratamento precoce”.",
+                "resposta": false
+            }
+        ]
+            },
+        
+
+    {
+     "id":2,
+     "nome": "Tratamento",
+     "noticias":[
+                {
+                 "id_noticia": 0,
+                 "descricao": "“Suplementos vitamínicos e minerais não podem prevenir a COVID-19”",
+                 "fonte": "Organização Mundial da Saúde",
+                 "data": null,
+                 "feedback": "A notícia é Fato! Os micronutrientes, como as vitaminas D e C e o zinco, são essenciais para o bom funcionamento do sistema imunológico e desempenham um papel vital na promoção da saúde e do bem-estar nutricional. Atualmente, não há orientação sobre o uso de suplementos de micronutrientes como prevenção ou tratamento da COVID-19.",
+                 "resposta": true
+                 },
+                {
+                 "id_noticia": 1,
+                 "descricao": "“CDC dos Estados unidos: máscaras faciais não previnem Covid-19, estudo descobre que as máscaras têm impacto insignificante nos números do coronavírus”",
+                 "fonte": "Facebook",
+                 "data": "11 Mar. 2021",
+                 "feedback": "A notícia é Fake! O CDC não admitiu que as máscaras faciais são ineficazes e que têm “impacto insignificante” no número de casos de Covid-19. Na realidade, os estudos mais recentes do órgão sobre o assunto falam justamente o contrário. No dia 5 de março de 21, o CDC publicou uma pesquisa afirmando que o uso de máscara e a restrição de refeições em bares e restaurantes auxiliaram a diminuir a transmissão do vírus, reduzindo as taxas de crescimento de casos e de mortes. A entidade pontuou ainda que essas medidas são cada vez mais importantes devido ao surgimento de variantes do novo coronavírus em diversos países. Outro estudo, divulgado em fevereiro pelo CDC, afirma que usar duas máscaras – uma de pano e outra cirúrgica – reduz em 95% a exposição aos aerossóis, pequenas partículas respiratórias que podem conter o vírus.",
+                 "resposta": false
+                 },
+                {
+                 "id_noticia": 2,
+                 "descricao": "“Um estudo publicado recentemente demonstrou que protetores faciais e máscaras com válvulas não são os dispositivos ideais para proteger da Covid-19, pois não barram com eficácia a passagem de fluídos”",
+                 "fonte": null,
+                 "data": "09 Set. 2021",
+                 "feedback": "A notícia é Fato! Simulações mostraram que os protetores faciais, quando usados sem máscara, são eficazes em impedir a passagem de gotículas maiores, mas não de aerossóis. Testes de máscaras com válvulas indicaram que há escape tanto de gotículas maiores como menores, tanto pelo ajuste ruim delas no nariz como pela ineficácia das válvulas encontradas no mercado.",
+                 "resposta": true
+                 },
+                 {
+                 "id_noticia": 3,
+                 "descricao": "“Estudo liderado pelo pesquisador Leopoldo Segal publicado na revista Cancer Discovery, diz que uso de máscara a longo prazo cria micróbios que contribuem para o câncer de pulmão”",
+                 "fonte": "Site Stylo Urbano",
+                 "data": "11 Fev. 2021",
+                 "feedback": "A notícia é Fake! O estudo, liderado pelo pesquisador Leopoldo Segal, foi publicado na revista Cancer Discovery e não analisou o uso de máscaras em nenhum momento.  A pesquisa de Segal verificou como microrganismos presentes no sistema respiratório inferior afetavam o prognóstico, ou seja, a chance de cura de pacientes com câncer de pulmão. Os resultados mostraram que aqueles que tinham um prognóstico pior possuíam uma maior quantidade de bactérias no sistema respiratório inferior, na comparação com as pessoas com melhor chance de se recuperarem da doença. A pesquisa em nenhum momento analisou os motivos para a presença maior ou menor de bactérias nos pulmões. Além disso, a análise ocorreu entre março de 2013 e outubro de 2018, muito antes da pandemia.",
+                 "resposta": false
+                 },
+                 {
+                 "id_noticia": 4,
+                 "descricao": "“Quanto mais usamos estes géis à base de álcool, mais permeáveis e sensíveis à epiderme são os vírus o que auxiliaria na contaminação”",
+                 "fonte": "Facebook",
+                 "data": "26 Jun. 2020",
+                 "feedback": "A notícia é Fake! Atualmente, não há nenhuma evidência científica de contaminação pelo novo coronavírus através da pele. A Organização Mundial da Saúde (OMS) afirma que o novo coronavírus é transmitido entre as pessoas por meio de pequenas gotículas do nariz ou da boca. Além disso, também é possível ser infectado tocando uma superfície contaminada e levando a mão ao rosto. Há indícios de que a transmissão pode ocorrer, também, através de aerossóis, microgotículas de água que flutuam no ar e podem ser aspiradas diretamente. O Álcool gel 70% é uma substância é eficiente como desinfetante e seu uso é seguro. Portanto, é recomendada para reduzir as possibilidades de contágio pelo SARS-Cov-2 e outras doenças. ",
+                 "resposta": false
+                 },
+                 {
+                 "id_noticia": 5,
+                 "descricao": "“Por que não falar sobre os benefícios do chuveiro frio que em poucos dias aumenta o nível de certos linfócitos T?”",
+                 "fonte": "Facebook",
+                 "data": "27 Ago. 2020",
+                 "feedback": "A notícia é Fake! A exposição aguda ao frio não é uma recomendação para se melhorar o desempenho do sistema imunológico.",
+                 "resposta": false
+                 },
+                {
+                 "id_noticia": 6,
+                 "descricao": "“Podemos ter em casa os cuidados para COVID que são tomados nos hospitais: Vitamina C-1000 mg; Vitamina E; Das 10h às 11h, estar ao sol durante 15 a 20 minutos; Refeição com ovo uma vez por dia; Descansar/dormir no mínimo 7-8 horas; Beber 1,5 litros de água diariamente; Todas as refeições devem ser quentes (não frias).”",
+                 "fonte": "WhatsApp",
+                 "data": "24 Nov. 2020",
+                 "feedback": "A notícia é Fake! Vitamina C não está entre as medidas de prevenção recomendadas para prevenir o Covid-19, de acordo com o Ministério da Saúde. O órgão diz que não há evidências científicas que mostrem que ingerir vitamina C seja eficaz contra o novo coronavírus.Além disso, nenhum dos outros itens citados compõe a lista de recomendações da Organização Pan-Americana da Saúde (OPAS) para prevenção contra a Covid-19.",
+                 "resposta": false
+                 },
+                 {
+                 "id_noticia": 7,
+                 "descricao": "“Observe que o pH do coronavírus varia de 5,5 a 8,5. Portanto, tudo o que precisamos fazer para eliminar o vírus é consumir mais alimentos alcalinos acima do nível de acidez do vírus. Tais como Bananas e Limão verde – 9,9 pH; Limão Amarelo – 8,2 pH; Abacate – 15,6 pH; Alho – 13,2 pH; Manga – 8,7 pH; Tangerina – 8,5 pH; Abacaxi – 12,7 pH; Agrião – 22,7 pH; Laranjas – 9,2 pH”",
+                 "fonte": "Trecho de texto em imagem que circula nas redes sociais",
+                 "data": null,
+                 "feedback": "A notícia é Fake! O Ministério da Saúde já havia desmentido o boato de que alimentos alcalinos evitam o novo coronavírus. Não há comprovação científica de que a Covid-19 seja “imune a organismos com um PH maior que 5,5”, sobretudo porque diferentes tecidos do corpo apresentam diferentes graus de acidez. Vale lembrar ainda que o consumo de alimentos mais ácidos não deixa o seu sangue mais ácido, como diz o post que circula pelo Facebook. O texto do Facebook erra ainda ao citar o pH de alguns alimentos supostamente alcalinos. Nenhum dos vegetais citados no post são substâncias de fato alcalinas. O abacate, por exemplo, tem o pH de cerca de 6,5 e não 15,6 como indica o texto. Já o limão, uma fruta particularmente ácida, tem o pH de cerca de 2,2 e não 9,9.",
+                 "resposta": false
+                 },
+                {
+                 "id_noticia": 8,
+                 "descricao": "“(…) nós vamos precisar apenas de um nebulizador caseiro, 100g de bicarbonato de sódio, 100 ml de água oxigenada volume 10 e 900 ml de água mineral.  (…). Nós vamos pegar o peróxido de hidrogênio, que é água oxigenada, para facilitar e misturar também na água mineral. Tá pronto. Fica um líquido translúcido. Enche o bujão do seu nebulizador e…. Olha que facilidade. Cinco minutos é o suficiente, uma vez por dia, para prevenção. Para tratamento da covid, nós podemos fazer com cinco minutos de três a cinco vezes ao dia.(…)”",
+                 "fonte": "Trecho de vídeo que circula no WhatsApp",
+                 "data": "01 Mar. 2021",
+                 "feedback": "A notícia é Fake! Não há evidências de que a combinação de compostos químicos, como o bicarbonato de sódio e o peróxido de hidrogênio, popularmente conhecida como água oxigenada, previnam ou contribuam para que a Covid-19 não evolua para um quadro grave. As principais recomendações para prevenir a doença, de acordo com a Organização Mundial da Saúde (OMS) são uso de máscara, distanciamento social e higienização correta das mãos, além da vacina, quando disponível.",
+                 "resposta": false
+                 },
+                {
+                 "id_noticia": 9,
+                 "descricao": "“Uma das formas mais importantes de prevenir a disseminação do SARS-CoV-2 é a etiqueta respiratória, a qual consiste num conjunto de medidas que devem ser adotadas para evitar e/ ou reduzir a disseminação de pequenas gotículas oriundas do aparelho respiratório, buscando evitar possível contaminação de outras pessoas que estão em um mesmo ambiente. ”",
+                 "fonte": "https://coronavirus.ceara.gov.br/ ",
+                 "data": "22 Dez. 2020",
+                 "feedback": "A notícia é Fato! Algumas medidas: Cobrir nariz e boca com lenço de papel ou com o antebraço, e nunca com as mãos ao tossir ou espirrar, descarte adequadamente o lenço utilizado. Evitar tocar olhos, nariz e boca com as mãos não lavadas, se tocar, sempre higienize as mãos como já indicado. Manter distância de qualquer pessoa tossindo ou espirrando. Evitar abraços, beijos e apertos de mãos. Adote um comportamento amigável sem contato físico. Evitar aglomerações e manter os ambientes limpos e bem ventilados.",
+                 "resposta": true
+                }
+            ]
+                 },
+     {
+      "id":3,
+      "nome": "Sintomas",
+      "noticias":[
+                 {
+                "id_noticia": 0,
+                "descricao": "“Então são esses os três principais sintomas da nova cepa: garganta arranhando, espirrando e dor de cabeça.”",
+                "fonte": "Trecho de vídeo que circula no WhatsApp",
+                "data": null,
+                "feedback": "A notícia é Fake!  Não há no repositório de pesquisas sobre a Covid-19 da Organização Mundial de Saúde (OMS), estudo que evidencie alguma alteração no quadro de sintomas das pessoas infectadas pelas novas cepas. De acordo com a professora Carolina Moreira Voloch, do Laboratório de Virologia Molecular da UFRJ, em entrevista para AdUFRJ, novas linhagens surgem o tempo todo, o que é esperado para o Sars-CoV-2, um vírus novo. E não é possível apontar formas de manifestação da doença que sejam mais comuns do que outras. “Não há nenhuma evidência de mudança de sintomas. Desde o início da pandemia existe uma variação enorme na sintomatologia apresentada pelos infectados: de pessoas assintomáticas até aquelas com sintomas muito severos.",
+                "resposta": false
+                 },
+                {
+                "id_noticia": 1,
+                "descricao": "“O fígado, que é a usina de depuração das medicações, começa a cair a sua função, gera uma hepatite que, aparentemente é medicamentosa, por isso os médicos estão confundindo. (…) Estão chegando com hepatite por causa da nova cepa, aí eles estão dizendo que é a ivermectina”",
+                "fonte": "Trecho de vídeo que circula no WhatsApp",
+                "data": null,
+                "feedback": "A notícia é Fake!  A Covid-19, independentemente da cepa, pode afetar sim o fígado e outros órgãos. Contudo, isso não significa que os médicos estejam “confundindo” hepatite medicamentosa com os efeitos da própria doença. Através de uma biópsia os médicos são capazes de evidenciar quando os sintomas são causados pela doença ou por medicamentos.",
+                "resposta": false
+                 },
+                {
+                "id_noticia": 2,
+                "descricao": "“Todo mundo viu aí que várias pesquisas estão cancelando os testes da CoronaVac porque está morrendo gente... os laboratórios têm como objetivo “assassinar” e “destruir o povo brasileiro”",
+                "fonte": "Frase em vídeo no Facebook",
+                "data": "24 Out. 2020",
+                "feedback":"A notícia é Fake!   Pesquisas para vacina contra o novo coronavírus não foram canceladas devido à morte de voluntários no Brasil. Tampouco consta informação semelhante no site da Agência Nacional de Vigilância Sanitária (Anvisa).",
+                "resposta": false
+                 },
+                {
+                "id_noticia": 3,
+                "descricao": "“Embora a maioria das pessoas com covid-19 desenvolvam sintomas leves (40%) ou moderados (40%), aproximadamente 15% podem desenvolver sintomas graves que requerem suporte de oxigênio e, cerca de 5% podem apresentar a forma crítica da doença, com complicações como falência respiratória, sepse e choque séptico, tromboembolismo e/ou falência múltipla de órgãos, incluindo lesão hepática ou cardíaca aguda e requerem cuidados intensivos.”",
+                "fonte": "https://coronavirus.saude.gov.br/",
+                "data": "16 Abr. 2021",
+                "feedback": "A notícia é Fato!  A covid-19 também pode estar frequentemente associada a manifestações mentais e neurológicas10, incluindo delírio ou encefalopatia, agitação, acidente vascular cerebral, meningoencefalite, olfato ou paladar prejudicados, ansiedade, depressão e distúrbios de sono. Em muitos casos, manifestações neurológicas foram relatadas mesmo em pacientes sem sintomas respiratórios.",
+                "resposta": true
+                 },
+                {
+                "id_noticia": 4,
+                "descricao": "“As manifestações clínicas da covid-19 são geralmente mais leves em crianças do que em adultos.”",
+                "fonte": "https://coronavirus.saude.gov.br/",
+                "data": "16 Abr. 2021",
+                "feedback": "A notícia é Fato!  No entanto, em 26 de abril de 2020, o Sistema Nacional de Saúde Inglês (NHS) lançou um alerta relatando uma nova apresentação clínica em crianças, caracterizada como uma síndrome hiperinflamatória que pode levar a um quadro de falência de múltiplos órgãos e choque, denominada Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) temporalmente associada à covid-19.",
+                "resposta": true
+                 },
+                {
+                "id_noticia": 5,
+                "descricao": "“Pessoas com 60 anos ou mais e aqueles com problemas médicos subjacentes, como hipertensão, problemas cardíacos e pulmonares, diabetes, obesidade ou câncer, correm maior risco de desenvolver a doença COVID-19 com sintomas graves.”",
+                "fonte": "https://saude.abril.com.br",
+                "data": "31 Abr. 2020",
+                "feedback": "A notícia é Fato!  No entanto, qualquer pessoa pode ficar doente com COVID-19 e ficar gravemente doente ou morrer em qualquer idade.",
+                "resposta": true
+                 },
+                {
+                "id_noticia": 6,
+                "descricao": "“O tempo desde a exposição ao COVID-19 até o momento em que os sintomas começam é, em média, de 5 a 6 dias e pode variar de 1 a 14 dias.”",
+                "fonte": "Organização Mundial da Saúde",
+                "data": null,
+                "feedback": "A notícia é Fato!  É por isso que as pessoas que foram expostas ao vírus são aconselhadas a permanecer em casa e afastadas de outras pessoas, durante 14 dias, para evitar a propagação do vírus, especialmente onde os testes não estão facilmente disponíveis.",
+                "resposta": true
+                 },
+                {
+                "id_noticia": 7,
+                "descricao": "“Não há diferença entre uma pessoa assintomática e uma pessoa pré-sintomática contaminada com o vírus.”",
+                "fonte": "Facebook",
+                "data": null,
+                "feedback": "A notícia é Fake!  Esses dois termos se referem a pessoas que não apresentam sintomas . A diferença é que o termo assintomático se refere a pessoas que estão infectadas, mas nunca desenvolvem sintomas durante o período da infecção, enquanto o termo pré-sintomático se refere a pessoas infectadas que ainda não desenvolveram sintomas, mas cuja condição evolui e se desenvolverá posteriormente. O CDC (Centro de Controle e Prevenção de Doenças dos EUA) avalia que até 40% das pessoas são contaminadas antes de que o paciente que a infectou desenvolva os sintomas.",
+                "resposta": false
+                 },
+                {
+                "id_noticia": 8,
+                "descricao": "“Quer apresentem ou não sintomas, as pessoas infectadas podem ser contagiosas e transmitir o vírus a outras pessoas.”",
+                "fonte": "OMS",
+                "data": "20 Out. 2020",
+                "feedback": "A notícia é Fato!  De acordo com os dados laboratoriais, é especialmente imediatamente antes de desenvolverem sintomas (ou seja, dois dias antes do início dos sintomas) e no início da doença que as pessoas infectadas são mais contagiosas. Pessoas que desenvolvem uma forma grave da doença podem ser contagiosas por mais tempo.",
+                "resposta": true
+                 },
+                {
+                "id_noticia": 9,
+                "descricao": "“As evidências disponíveis sugerem que a COVID-19 pode induzir várias manifestações clínicas gastrointestinais em pacientes com a doença. Podem ocorrer diarreia, anorexia, vômito, náusea e dor abdominal, e complicações como sangramento gastrointestinal em crianças.”",
+                "fonte": "Organização Pan-Americana da Saúde / Organização Mundial da Saúde.",
+                "data": "12 Ago. 2020",
+                "feedback": "A notícia é Fato!  As manifestações clínicas da COVID-19 em crianças são geralmente leves em comparação com as que ocorrem em adultos. No entanto, desde maio de 2020, têm sido observados casos de síndrome hiperinflamatória na população pediátrica que pode levar à falência de múltiplos órgãos e choque, agora descrita como síndrome inflamatória multissistêmica em crianças e adolescentes que coincide temporalmente com a COVID-19.  Estudos recentes com mulheres grávidas relatam casos com manifestações graves e óbitos perinatais.",
+                "resposta": true
+                 }
+        ]
+        
+    }
+]

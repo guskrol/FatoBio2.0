@@ -1,0 +1,38 @@
+<ion-app>
+<ion-header>
+  <ion-toolbar color = "success">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title><h6>Hora da Investigação</h6></ion-title>
+    
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <br>
+  
+  <ion-button (click)="abrirOpcoes(0)" expand="block" color="success">
+    <ion-icon slot="start" name="search-outline"> </ion-icon>
+    Covid-19
+  </ion-button>
+  <br>
+  <ion-button (click)="abrirOpcoes(1)" expand="block" color="success">
+    Prevenção
+    <ion-icon slot="start" name="search-outline"></ion-icon>
+  </ion-button>
+  <br>  
+  <ion-button (click)="abrirOpcoes(2)" expand="block" color="success"> 
+    <ion-icon slot="start" name="search-outline"></ion-icon>
+    Tratamento
+  </ion-button>
+  <br>
+  <ion-button (click)="abrirOpcoes(3)" expand="block" color="success">
+    <ion-icon slot="start" name="search-outline"></ion-icon>
+    Sintomas
+  </ion-button> 
+</ion-content>
+</ion-app>
+
