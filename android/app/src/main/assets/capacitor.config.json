@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "proj-01",
+  "appName": "FatoBio",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
